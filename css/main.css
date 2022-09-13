@@ -299,4 +299,24 @@ body {
   .site-header__cart {
     order: 4;
   }
+}
+@media only screen and (max-width: 440px) {
+  .modal__content {
+    padding: 30px 20px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .site-header__logo-link {
+    display: none;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .modal__search-wrapper {
+    min-width: 250px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .modal__search-wrapper {
+    min-width: 200px;
+  }
 }/*# sourceMappingURL=main.css.map */
