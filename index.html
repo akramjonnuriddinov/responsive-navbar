@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar</title>
+  <!-- ALL CSS -->
+  <link rel="stylesheet" href="./css/all.css">
+  <!-- MAIN CSS -->
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  
+  <!-- SITE-HEADER -->
+  <header class="site-header">
+    <div class="container site-header__container">
+      <button class="toggle js-toggle" type="button">
+        <i class="fa-solid fa-bars toggle__icon"></i>
+      </button>
+      <a class="site-header__logo-link" href="index.html">
+        <!-- <img class="site-header__logo-img" src="http://fpoimg.com/30x25" alt="Site logo" width="30" height="25"> -->
+        <span>RADIATORSONLINE.COM</span>
+      </a>
+      <!-- NAVBAR -->
+      <nav class="sitenav js-sitenav">
+        
+        <ul class="sitenav__list">
+          <li class="sitenav__item">
+            <button class="sitenav__close js-sitenav-close">
+              <i class="fa-regular fa-circle-xmark sitenav__close-icon"></i>
+            </button>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="#">Radiators</a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="#">Towel Radiators</a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="#">Electric Radiators</a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="#">Valves & Accessories</a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="#">Brands</a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="#">BTU Calculators</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- /NAVBAR -->
+      <form class="form">
+        <div class="form__search-wrapper">
+          <input class="form__search" placeholder="Search" type="search">
+          <i class="fa-solid fa-magnifying-glass form__search-icon js-search-icon"></i>
+        </div>
+      </form>
+
+      <a class="site-header__user" href="#">
+        <i class="fa-regular fa-user"></i>
+      </a>
+      <button class="site-header__cart" type="button">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </button>
+    </div>
+  </header>
+  <!-- /SITE-HEADER -->
+
+  <!-- MODAL -->
+  <section class="modal">
+    <div class="modal__dialog">
+      
+      <div class="modal__content">
+        <button class="modal__search-close js-modal-search-close">
+          <i class="fa-regular fa-circle-xmark sitenav__close-icon"></i>
+        </button>
+        <form class="modal__form">
+          <div class="modal__search-wrapper">
+            <input class="modal__search" placeholder="Search" type="search">
+            <i class="fa-solid fa-magnifying-glass modal__search-icon"></i>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- /MODAL -->
+
+
+  <script src="js/main.js"></script>
+</body>
+</html>
